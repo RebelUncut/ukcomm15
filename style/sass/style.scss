@@ -1,0 +1,227 @@
+@import "normalize";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "last-year";
+
+$blue-dark: #293e50;
+$blue-light: #2176ae;
+$green: #00967e;
+
+// Typography
+	
+	* {
+		font-family: "Fira Sans", sans-serif;
+	}
+
+// Header
+
+	header {
+		background-image: url("/img/bg.png");
+		background-size: 100vw 36vw;
+		background-repeat: no-repeat;
+		min-height: 36vw;
+		padding: 3em;
+		img {
+			height: 3em;
+			display: block;
+			margin: 0 auto;
+		}
+		h1,
+		h2 {
+			color: white;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		h2 {
+			font-weight: normal;
+		}
+		p {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		a {
+			font-weight: bold;
+			padding: 1em;
+			border: 1px solid white;
+			border-radius: 5px;
+			color: white;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+	}
+
+// Time bar
+	
+	h2.time {
+		text-align: center;
+		padding: 1em;
+		text-transform: uppercase;
+		color: $blue-light;
+		font-size: 2em;
+	}
+
+// Stream
+
+	.stream {
+		@include outer-container;
+		.video {
+			@include span-columns(8);
+			iframe {
+				@include span-columns(8 of 8);
+				height: 350px;
+			}
+		}
+		.sidebar {
+			@include span-columns(4);
+			@include omega;
+			iframe {
+				height: 350px !important;
+			}
+		}
+		.tweet-intent {
+			@extend h2.time;
+			@include fill-parent;
+			margin-bottom: 0;
+			overflow: auto;
+			a {
+				color: $blue-light;
+				text-decoration: none;
+				padding: 1em;
+			}
+		}
+	}
+
+// Register 
+
+	.register {
+		background: $green;
+		padding: 2em;
+		h2 {
+			color: white;
+			display: block;
+			text-align: center;
+			padding-bottom: 1em;
+			text-transform: uppercase;
+			margin: 0;
+		}
+		form {
+			@include outer-container;
+			input {
+				@include span-columns(2.4);
+				padding: .5em;
+				border: 2px solid transparent;
+				outline: 0;
+				&:focus,
+				&:active {
+					outline: 0;
+					border-color: $blue-light;
+				}
+				&[type="submit"] {
+					background: white;
+					color: $green;
+				}
+			}
+		}
+	}
+
+// About
+
+	.about {
+		@include outer-container;
+		margin-bottom: 2rem;
+		h2 {
+			text-align: center;
+			font-weight: bold;
+			color: $blue-light;
+			text-transform: uppercase;
+			margin-top: 2rem;
+		}
+		p {
+			text-align: center;
+			font-family: Calibri, sans-serif;
+			line-height: 2;
+			margin-bottom: 0;
+		}
+	}
+
+// Last Year Mop Up
+
+	.speakers,
+	.talks {
+		h1 {
+			text-align: center;
+			color: $blue-dark;
+			text-transform: uppercase;
+			font-size: 1.5em;
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+		ul {
+			padding-left: 0;
+		}
+	}
+
+	.speakers {
+		ul {
+			margin-top: 0;
+			h2 {
+				color: $blue-dark;
+			}
+		}
+	}
+
+	.talks {
+		.name {
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
+
+// Rebel Uncut
+	
+	.ru {
+		display: block;
+		color: #754698;
+		text-decoration: none;
+		margin-bottom: 2rem;
+		h3 {
+			font-size: .8rem;
+			text-align: center;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			height: 4rem;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
