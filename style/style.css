@@ -507,6 +507,9 @@ h2.time, .stream .tweet-intent {
     text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 2rem; }
+    @media screen and (max-width: 960px) {
+      .about h2 {
+        font-size: 1rem; } }
   .about p {
     text-align: center;
     font-family: Calibri, sans-serif;
@@ -528,6 +531,9 @@ h2.time, .stream .tweet-intent {
     text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 2rem; }
+    @media screen and (max-width: 960px) {
+      .speakers > h2 {
+        font-size: 1rem; } }
   .speakers ul {
     padding-left: 0; }
     .speakers ul li {
@@ -544,7 +550,8 @@ h2.time, .stream .tweet-intent {
         clear: left; }
       .speakers ul li img {
         display: block;
-        margin: 0 auto; }
+        margin: 0 auto;
+        width: 100%; }
       .speakers ul li .info {
         text-align: center; }
         .speakers ul li .info h2,
@@ -572,6 +579,9 @@ h2.time, .stream .tweet-intent {
     text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 2rem; }
+    @media screen and (max-width: 960px) {
+      .talks h2 {
+        font-size: 1rem; } }
   .talks ul {
     float: left;
     display: block;
@@ -582,8 +592,14 @@ h2.time, .stream .tweet-intent {
     .talks ul:last-child {
       margin-right: 0; }
     .talks ul li {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
       list-style-type: none;
       margin-bottom: .5rem; }
+      .talks ul li:last-child {
+        margin-right: 0; }
       .talks ul li .time {
         float: left;
         display: block;
@@ -596,8 +612,16 @@ h2.time, .stream .tweet-intent {
         margin-top: .5rem; }
         .talks ul li .time:last-child {
           margin-right: 0; }
-      .talks ul li .information .name {
-        font-weight: bold; }
+      .talks ul li .information {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 87.05267%;
+        margin-right: 0; }
+        .talks ul li .information:last-child {
+          margin-right: 0; }
+        .talks ul li .information .name {
+          font-weight: bold; }
 
 .ru {
   display: block;
@@ -611,5 +635,130 @@ h2.time, .stream .tweet-intent {
     display: block;
     margin: 0 auto;
     height: 4rem; }
+
+@media screen and (max-width: 960px) {
+  header {
+    background-size: 150vw 54vw;
+    min-height: 54vw;
+    background-position: top center; }
+    header h1 {
+      font-size: 1.5rem; }
+    header h2 {
+      font-size: 1rem;
+      margin-bottom: 1.5rem; }
+    header a {
+      padding: 0.75em; }
+
+  h2.time, .stream .tweet-intent {
+    font-size: 1rem; }
+
+  .stream .video {
+    width: 95vw;
+    margin: 0 2.5vw 2.5vw 2.5vw;
+    height: 52vw; }
+    .stream .video iframe {
+      height: 52vw; }
+  .stream .sidebar {
+    display: none; }
+  .stream .tweet-intent {
+    display: none; }
+
+  .register {
+    padding: 2.5vw; }
+    .register h2 {
+      font-size: 1rem; }
+    .register form input {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-bottom: 2.35765%;
+      font-size: 0.75rem; }
+      .register form input:last-child {
+        margin-right: 0; }
+      .register form input:nth-child(2n) {
+        margin-right: 0; }
+      .register form input:nth-child(2n+1) {
+        clear: left; }
+      .register form input[type="submit"] {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-bottom: 0; }
+        .register form input[type="submit"]:last-child {
+          margin-right: 0; }
+
+  .speakers {
+    padding: 0 2.5vw; }
+    .speakers ul li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .speakers ul li:nth-child(4n) {
+        margin-right: 2.35765%; }
+      .speakers ul li:nth-child(4n+1) {
+        clear: none; }
+      .speakers ul li:last-child {
+        margin-right: 0; }
+      .speakers ul li:nth-child(3n) {
+        margin-right: 0; }
+      .speakers ul li:nth-child(3n+1) {
+        clear: left; }
+
+  .talks {
+    padding: 0 2.5vw; }
+    .talks ul {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%;
+      margin-top: 0; }
+      .talks ul:last-child {
+        margin-right: 0; }
+
+  .about {
+    padding: 0 2.5vw; } }
+@media screen and (max-width: 600px) {
+  header {
+    background-image: none;
+    background: #293e50; }
+
+  .register form input {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .register form input:last-child {
+      margin-right: 0; }
+
+  .speakers ul li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .speakers ul li:nth-child(3n) {
+      margin-right: 2.35765%; }
+    .speakers ul li:nth-child(3n+1) {
+      clear: none; }
+    .speakers ul li:last-child {
+      margin-right: 0; }
+    .speakers ul li:nth-child(2n) {
+      margin-right: 0; }
+    .speakers ul li:nth-child(2n+1) {
+      clear: left; }
+
+  .talks ul li .time,
+  .talks ul li .information {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    text-align: center; }
+    .talks ul li .time:last-child,
+    .talks ul li .information:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
