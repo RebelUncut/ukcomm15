@@ -374,126 +374,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100.0%, transparent 100.0%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 960px;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
-
-.speakers {
-  padding-top: 0;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto; }
-  .speakers::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.speakers ul {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  padding-left: 0; }
-
-.speakers ul:last-child {
-  margin-right: 0; }
-
-.speakers ul li {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-bottom: 1em; }
-
-.speakers ul li:last-child {
-  margin-right: 0; }
-
-.speakers ul li:nth-child(2n) {
-  margin-right: 0; }
-
-.speakers ul li:nth-child(2n+1) {
-  clear: left; }
-
-.speakers ul li img {
-  float: left;
-  display: block;
-  margin-right: 4.82916%;
-  width: 30.11389%; }
-
-.speakers ul li img:last-child {
-  margin-right: 0; }
-
-.speakers ul li h2 {
-  text-transform: uppercase;
-  font-size: 1.25em;
-  line-height: 1.5em; }
-
-.speakers ul li h3 {
-  font-size: 1em; }
-
-.talks {
-  padding-top: 0;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto; }
-  .talks::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.talks h1 {
-  margin: 0 0 1em 0; }
-
-.talks ul li {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  margin-bottom: 1em; }
-
-.talks ul li:last-child {
-  margin-right: 0; }
-
-.talks ul li .time {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
-  background: #00a99d;
-  color: white;
-  text-align: center;
-  padding: .75em; }
-
-.talks ul li .time:last-child {
-  margin-right: 0; }
-
-.talks ul li .information {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%; }
-
-.talks ul li .information:last-child {
-  margin-right: 0; }
-
-.talks ul li .information .name {
-  color: #00a99d; }
-
 * {
   font-family: "Fira Sans", sans-serif; }
 
@@ -625,33 +505,99 @@ h2.time, .stream .tweet-intent {
     font-weight: bold;
     color: #2176ae;
     text-transform: uppercase;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .about p {
     text-align: center;
     font-family: Calibri, sans-serif;
     line-height: 2;
     margin-bottom: 0; }
 
-.speakers h1,
-.talks h1 {
-  text-align: center;
-  color: #293e50;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  margin-top: 2em;
-  margin-bottom: 2em; }
-.speakers ul,
-.talks ul {
-  padding-left: 0; }
+.speakers {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  .speakers::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .speakers > h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #2176ae;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .speakers ul {
+    padding-left: 0; }
+    .speakers ul li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      margin-bottom: .5rem; }
+      .speakers ul li:last-child {
+        margin-right: 0; }
+      .speakers ul li:nth-child(4n) {
+        margin-right: 0; }
+      .speakers ul li:nth-child(4n+1) {
+        clear: left; }
+      .speakers ul li img {
+        display: block;
+        margin: 0 auto; }
+      .speakers ul li .info {
+        text-align: center; }
+        .speakers ul li .info h2,
+        .speakers ul li .info h3 {
+          font-weight: normal; }
+        .speakers ul li .info h2 {
+          font-size: 1.25rem;
+          margin: 1rem 0 0.5rem 0; }
+        .speakers ul li .info h3 {
+          font-size: .75em;
+          margin: 0 0 1rem 0; }
 
-.speakers ul {
-  margin-top: 0; }
-  .speakers ul h2 {
-    color: #293e50; }
-
-.talks .name {
-  text-transform: uppercase;
-  font-weight: bold; }
+.talks {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  .talks::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .talks h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #2176ae;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .talks ul {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 61.61588%;
+    margin-left: 23.45696%;
+    padding-left: 0; }
+    .talks ul:last-child {
+      margin-right: 0; }
+    .talks ul li {
+      list-style-type: none;
+      margin-bottom: .5rem; }
+      .talks ul li .time {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 9.36867%;
+        text-align: right;
+        font-size: 1.25em;
+        font-weight: bold;
+        color: #00967e;
+        margin-top: .5rem; }
+        .talks ul li .time:last-child {
+          margin-right: 0; }
+      .talks ul li .information .name {
+        font-weight: bold; }
 
 .ru {
   display: block;

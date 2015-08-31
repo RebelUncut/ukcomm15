@@ -1,7 +1,16 @@
 @import "normalize";
 @import "bourbon/bourbon";
 @import "neat/neat";
-@import "last-year";
+// @import "last-year";
+
+@mixin section-header {
+	text-align: center;
+	font-weight: bold;
+	color: $blue-light;
+	text-transform: uppercase;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
 
 $blue-dark: #293e50;
 $blue-light: #2176ae;
@@ -131,11 +140,7 @@ $green: #00967e;
 		@include outer-container;
 		margin-bottom: 2rem;
 		h2 {
-			text-align: center;
-			font-weight: bold;
-			color: $blue-light;
-			text-transform: uppercase;
-			margin-top: 2rem;
+			@include section-header;
 		}
 		p {
 			text-align: center;
@@ -145,36 +150,73 @@ $green: #00967e;
 		}
 	}
 
-// Last Year Mop Up
+// Speakers
 
-	.speakers,
-	.talks {
-		h1 {
-			text-align: center;
-			color: $blue-dark;
-			text-transform: uppercase;
-			font-size: 1.5em;
-			margin-top: 2em;
-			margin-bottom: 2em;
+	.speakers {
+		@include outer-container;
+		> h2 {
+			@include section-header;
 		}
 		ul {
 			padding-left: 0;
-		}
-	}
-
-	.speakers {
-		ul {
-			margin-top: 0;
-			h2 {
-				color: $blue-dark;
+			li {
+				@include span-columns(3 of 12);
+				@include omega (4n);
+				margin-bottom: .5rem;
+				img {
+					display: block;
+					margin: 0 auto;
+				}
+				.info {
+					text-align: center;
+					h2,
+					h3 {
+						font-weight: normal;
+					}
+					h2 {
+						font-size: 1.25rem;
+						margin: 1rem 0 0.5rem 0;
+					}
+					h3 {
+						font-size: .75em;
+						margin: 0 0 1rem 0;
+					}
+				}
 			}
 		}
 	}
 
+// Talks
+
 	.talks {
-		.name {
-			text-transform: uppercase;
-			font-weight: bold;
+		@include outer-container;
+		h2 {
+			@include section-header;
+		}
+		ul {
+			@include span-columns(7.5 of 12);
+			@include shift(2.75 of 12);
+			padding-left: 0;
+			li {
+				list-style-type: none;
+				margin-bottom: .5rem;
+				.time {
+					@include span-columns(1 of 8);
+					text-align: right;
+					font-size: 1.25em;
+					font-weight: bold;
+					color: $green;
+					margin-top: .5rem;
+				}
+				.information {
+					.name {
+						font-weight: bold;
+					}
+					.speaker {
+
+					}
+				}
+			}
 		}
 	}
 
