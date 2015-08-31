@@ -71,10 +71,10 @@
 			@include shift(0);
 			margin-top: 0;
 			li {
-				.time {
-				}
 				.information {
-
+					.speaker {
+						font-size: .75em;
+					}
 				}
 			}
 		}

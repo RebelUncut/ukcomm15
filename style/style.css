@@ -457,7 +457,7 @@ h2.time, .stream .tweet-intent {
       padding: 1em; }
 
 .register {
-  background: #00967e;
+  background: #2176ae;
   padding: 2em; }
   .register h2 {
     color: white;
@@ -608,7 +608,7 @@ h2.time, .stream .tweet-intent {
         text-align: right;
         font-size: 1.25em;
         font-weight: bold;
-        color: #00967e;
+        color: #2176ae;
         margin-top: .5rem; }
         .talks ul li .time:last-child {
           margin-right: 0; }
@@ -718,6 +718,8 @@ h2.time, .stream .tweet-intent {
       margin-top: 0; }
       .talks ul:last-child {
         margin-right: 0; }
+      .talks ul li .information .speaker {
+        font-size: .75em; }
 
   .about {
     padding: 0 2.5vw; } }
