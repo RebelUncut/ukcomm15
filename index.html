@@ -32,7 +32,12 @@
 	</div>
 	<div class="register" id="register">
 		<h2>Register for the livestream</h2>
-		<form action="https://docs.google.com/a/rewiredstate.org/forms/d/1PCnZutHvwsWvczBJfV4xTuXSGPTndfCQIpGPOlfHI4g/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+        <script type="text/javascript">var submitted=false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe"
+        style="display:none;" onload="if(submitted)
+        {window.location='/thanks.html';}"></iframe>
+        <form action="https://docs.google.com/a/rewiredstate.org/forms/d/1PCnZutHvwsWvczBJfV4xTuXSGPTndfCQIpGPOlfHI4g/formResponse" method="post"
+        target="hidden_iframe" onsubmit="submitted=true;">
 			<input type="text" name="entry.1001339253" value="" class="ss-q-short" id="entry_1001339253" dir="auto" aria-label="First Name  " title="" placeholder="First Name">
 			<input type="text" name="entry.2081701934" value="" class="ss-q-short" id="entry_2081701934" dir="auto" aria-label="Last Name  " title="" placeholder="Last Name">
 			<input type="text" name="entry.1697173898" value="" class="ss-q-short" id="entry_1697173898" dir="auto" aria-label="Email Address  " title=""  placeholder="Email Address">
