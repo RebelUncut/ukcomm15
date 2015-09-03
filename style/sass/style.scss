@@ -200,13 +200,16 @@ $green: #00967e;
 	.whitepaper {
 		a {
 			display: block;
-			background: $blue-light;
+			background: $blue-dark;
 			text-align: center;
 			color: white;
 			text-decoration: none;
-			font-size: 1.25em;
+			font-size: 1em;
 			padding: 1em;
-			margin-top: 1em;
+			span {
+				display: block;
+				@include outer-container;
+			}
 		}
 	}
 
