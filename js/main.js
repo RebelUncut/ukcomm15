@@ -11,4 +11,14 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+
+	function scrollDown() {
+		$('html, body').stop().animate({
+	        'scrollTop': $("#stream").offset().top
+	    }, 500, 'swing', function () {
+	        window.location.hash = target;
+	    }); 
+	}
+
+	window.onload = scrollDown;
 });

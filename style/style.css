@@ -379,10 +379,10 @@ html {
 
 header {
   background-image: url("/img/bg.png");
-  background-size: 100vw 36vw;
+  background-position: center bottom;
   background-repeat: no-repeat;
-  min-height: 36vw;
-  padding: 3em; }
+  background-size: 125%;
+  padding: 3rem 0 6em 0; }
   header img {
     height: 3em;
     display: block;
@@ -489,7 +489,7 @@ h2.time, .stream .tweet-intent {
         border-color: #2176ae; }
       .register form input[type="submit"] {
         background: white;
-        color: #00967e; }
+        color: #293e50; }
 
 .about {
   max-width: 960px;
@@ -564,6 +564,16 @@ h2.time, .stream .tweet-intent {
           font-size: .75em;
           margin: 0 0 1rem 0; }
 
+.whitepaper a {
+  display: block;
+  background: #2176ae;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding: 1em;
+  margin-top: 1em; }
+
 .talks {
   max-width: 960px;
   margin-left: auto;
@@ -636,18 +646,28 @@ h2.time, .stream .tweet-intent {
     margin: 0 auto;
     height: 4rem; }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 800px) {
+  .stream,
+  .speakers,
+  .about {
+    padding: 0 2.5vw; } }
+@media screen and (max-width: 1000px) {
   header {
-    background-size: 150vw 54vw;
-    min-height: 54vw;
-    background-position: top center; }
+    background-position-y: bottom;
+    padding: 1.5rem 0 3rem 0;
+    background-size: 100%; }
     header h1 {
       font-size: 1.5rem; }
     header h2 {
       font-size: 1rem;
       margin-bottom: 1.5rem; }
     header a {
-      padding: 0.75em; }
+      padding: 0.75em; } }
+@media screen and (max-width: 800px) {
+  header {
+    background-image: none;
+    background: #293e50;
+    padding: 3rem; }
 
   h2.time, .stream .tweet-intent {
     font-size: 1rem; }
@@ -724,10 +744,6 @@ h2.time, .stream .tweet-intent {
   .about {
     padding: 0 2.5vw; } }
 @media screen and (max-width: 600px) {
-  header {
-    background-image: none;
-    background: #293e50; }
-
   .register form input {
     float: left;
     display: block;

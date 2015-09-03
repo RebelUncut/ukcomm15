@@ -34,10 +34,10 @@ $green: #00967e;
 
 	header {
 		background-image: url("/img/bg.png");
-		background-size: 100vw 36vw;
+		background-position: center bottom;
 		background-repeat: no-repeat;
-		min-height: 36vw;
-		padding: 3em;
+		background-size: 125%;
+		padding: 3rem 0 6em 0;
 		img {
 			height: 3em;
 			display: block;
@@ -136,7 +136,7 @@ $green: #00967e;
 				}
 				&[type="submit"] {
 					background: white;
-					color: $green;
+					color: $blue-dark;
 				}
 			}
 		}
@@ -192,6 +192,21 @@ $green: #00967e;
 					}
 				}
 			}
+		}
+	}
+
+// Whitepaper
+
+	.whitepaper {
+		a {
+			display: block;
+			background: $blue-light;
+			text-align: center;
+			color: white;
+			text-decoration: none;
+			font-size: 1.25em;
+			padding: 1em;
+			margin-top: 1em;
 		}
 	}
 

@@ -1,8 +1,16 @@
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 800px) {
+	.stream,
+	.speakers,
+	.about {
+		padding: 0 2.5vw;
+	}
+}
+
+@media screen and (max-width: 1000px) {
 	header {
-		background-size: 150vw 54vw;
-		min-height: 54vw;
-		background-position: top center;
+		background-position-y: bottom;
+		padding: 1.5rem 0 3rem 0;
+		background-size: 100%;
 		h1 {
 			font-size: 1.5rem;
 		}
@@ -13,6 +21,14 @@
 		a {
 			padding: 0.75em;
 		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header {
+		background-image: none;
+		background: $blue-dark;
+		padding: 3rem;
 	}
 
 	h2.time {
@@ -86,11 +102,6 @@
 }
 
 @media screen and (max-width: 600px) {
-	header {
-		background-image: none;
-		background: $blue-dark;
-	}
-
 	.register {
 		form {
 			input {
